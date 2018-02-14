@@ -6,6 +6,7 @@ import java.util.Calendar;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +22,7 @@ import com.videorecording.VideoRecord;
 public class Hook{
 	public static WebDriver driver =null;
 	public static VideoRecord recorder= null;
-	CustomReporter reporter = null;
+	static CustomReporter reporter = null;
 	
 	public Hook() {
 		// TODO Auto-generated constructor stub		
@@ -38,12 +39,7 @@ public class Hook{
 	reporter = new CustomReporter();
 	MemoryFile.setReporter(reporter);
 	}
-	@AfterTest
-	public void AfterTest()
-	{
-		reporter.end();
 	
-	}
 	@BeforeMethod
 	public static void beforeTest() throws Exception{
 		System.out.println("Before test");
@@ -55,10 +51,11 @@ public class Hook{
 		GenericWebDriverFunctions.BeforeNextTestCase();	
 		}
 	
-	@AfterTest
+	@AfterMethod
 	public static void afterTest() throws Exception{	
 		System.out.println("AFTER test");
 		recorder.stopRecording();
+		reporter.end();
 		//GenericWebDriverFunctions.stopServer();
 	}
 	

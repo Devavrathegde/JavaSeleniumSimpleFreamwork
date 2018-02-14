@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="129102" started-at="2018-02-12T18:59:39Z" finished-at="2018-02-12T19:01:48Z">
+  <suite name="Default suite" duration-ms="101192" started-at="2018-02-14T17:21:30Z" finished-at="2018-02-14T17:23:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="129102" started-at="2018-02-12T18:59:39Z" finished-at="2018-02-12T19:01:48Z">
+    <test name="Default test" duration-ms="101192" started-at="2018-02-14T17:21:30Z" finished-at="2018-02-14T17:23:11Z">
       <class name="com.Testcases.TestPage">
-        <test-method status="PASS" signature="init()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="init" is-config="true" duration-ms="349" started-at="2018-02-13T00:29:39Z" finished-at="2018-02-13T00:29:39Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="init" is-config="true" duration-ms="269" started-at="2018-02-14T22:51:30Z" finished-at="2018-02-14T22:51:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="beforeTest" is-config="true" duration-ms="32212" started-at="2018-02-13T00:29:39Z" finished-at="2018-02-13T00:30:11Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="beforeTest" is-config="true" duration-ms="21289" started-at="2018-02-14T22:51:30Z" finished-at="2018-02-14T22:51:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="Login" duration-ms="33591" started-at="2018-02-13T00:30:11Z" finished-at="2018-02-13T00:30:45Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="Login" duration-ms="32151" started-at="2018-02-14T22:51:51Z" finished-at="2018-02-14T22:52:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="beforeTest" is-config="true" duration-ms="25168" started-at="2018-02-13T00:30:45Z" finished-at="2018-02-13T00:31:10Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="afterTest" is-config="true" duration-ms="664" started-at="2018-02-14T22:52:23Z" finished-at="2018-02-14T22:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="beforeTest" is-config="true" duration-ms="10667" started-at="2018-02-14T22:52:24Z" finished-at="2018-02-14T22:52:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Test2()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="Test2" duration-ms="34557" started-at="2018-02-13T00:31:10Z" finished-at="2018-02-13T00:31:45Z">
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="Test2" duration-ms="35829" started-at="2018-02-14T22:52:35Z" finished-at="2018-02-14T22:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method status="PASS" signature="AfterTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="AfterTest" is-config="true" duration-ms="2913" started-at="2018-02-13T00:31:45Z" finished-at="2018-02-13T00:31:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="afterTest" is-config="true" duration-ms="284" started-at="2018-02-13T00:31:48Z" finished-at="2018-02-13T00:31:48Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Testcases.TestPage@18be83e4]" name="afterTest" is-config="true" duration-ms="292" started-at="2018-02-14T22:53:11Z" finished-at="2018-02-14T22:53:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
